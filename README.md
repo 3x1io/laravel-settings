@@ -1,6 +1,6 @@
 ## Laravel Settings
 
-git commit -m "first commit"
+settings helper functions for laravel projects
 
 ## Install
 
