@@ -1,0 +1,26 @@
+{
+    "name": "3x1io/laravel-settings",
+    "description": "settings helper functions for laravel projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "3x1",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "realrashid/sweet-alert": "^3.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IO3x1\\LaravelSettings\\Providers\\LaravelSettingsProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "IO3x1\\LaravelSettings\\": "src/"
+        }
+    }
+}
